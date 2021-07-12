@@ -4,8 +4,8 @@ import math
 from statistics import mean
 
 # CONSTANTS
-START = 50
-END = 60
+START = 81
+END = 100
 
 
 Z = END - START  # depth

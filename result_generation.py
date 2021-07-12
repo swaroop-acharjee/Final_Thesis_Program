@@ -126,6 +126,10 @@ for file_name in file_lst:
                             c_group = i
                     classified_img[j][k][l] = c_group
 
+        FILE_OBJ_1 = open(f"{path}\\classified_img_{P}{Q}{R}.dat", mode="wb")
+        pickle.dump(classified_img, FILE_OBJ_1)
+        FILE_OBJ_1.close()
+
         """
 	  Misclassification Error
 	  """
